@@ -1,0 +1,27 @@
+{
+  "include": ["src", "types"],
+  "lib": [
+    "dom",
+    "dom.iterable",
+    "esnext"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "es6",
+    "target": "es5",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "noEmitOnError": true,
+    /* Additional Options */
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "importsNotUsedAsValues": "error"
+  }
+}
